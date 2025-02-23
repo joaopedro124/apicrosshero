@@ -63,3 +63,7 @@ def add_alunos():
 @app.route("/")
 def home():
     return "<h1>Error: 404</h1>"
+
+if __name__ == "__main__":  
+    port = int(os.environ.get("PORT", 5000))  # Render define a porta automaticamente  
+    app.run(host="0.0.0.0", port=port)  
