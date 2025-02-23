@@ -64,4 +64,4 @@ def add_alunos():
 def home():
     return "<h1>Error: 404</h1>"
 
-app.run(host="0.0.0.0", port=5000)
+app.run()
