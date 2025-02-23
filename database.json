@@ -1,0 +1,35 @@
+{
+    "alunos": [
+        {
+            "nome": "joaoadm",
+            "email": "joaopedropcoelho@hotmail.com",
+            "senha": "jp98200235",
+            "historico_treino": [
+                {
+                    "data": "2025-02-20",
+                    "treino": "Treino A"
+                }
+            ],
+            "ultimo_treino": "2025-02-21",
+            "id": 1
+        }
+    ],
+    "professores": [
+        {
+            "id": 1,
+            "nome": "Professor Diego",
+            "email": "prof@email.com",
+            "senha": "1346"
+        }
+    ],
+    "aulas": [
+        {
+            "id": 1,
+            "data": "2025-02-25",
+            "descricao": "Treino de for\u00e7a",
+            "alunos_inscritos": [
+                1
+            ]
+        }
+    ]
+}
