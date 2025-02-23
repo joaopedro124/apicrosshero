@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS
+#from flask_cors import CORS
 import json, os
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 database_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "database.json")
 
 # Function for loading Data
