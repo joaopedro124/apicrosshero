@@ -63,5 +63,3 @@ def add_alunos():
 @app.route("/")
 def home():
     return "<h1>Error: 404</h1>"
-
-app.run()
